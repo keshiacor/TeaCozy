@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS cheatsheet</title>
+    <link href="./styles.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Agbalumo&family=Merriweather:ital@0;1&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>CSS Cheatsheet: selectors</h1>
+
+    <div>
+      <p class="intro">
+        Use this cheatsheet to understand CSS selectors. For more in depth and
+        interactive exercises visit
+        <a href="https://www.w3schools.com/css/css_selectors.asp"
+          >W3Schools CSS selectors</a
+        >
+      </p>
+    </div>
+
+    <table>
+      <tr>
+        <th>Attribute name</th>
+        <th>Tag</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td class="attributes">Element selector</td>
+        <td class="tags">element { }</td>
+        <td class="description">
+          <p>p { font-family: serif; }</p>
+
+          where p is the paragraph selector. The CSS applied here will affect
+          all paragraphs unless they are individually overwritten using class
+          selector or id selector.
+        </td>
+      </tr>
+      <tr>
+        <td class="attributes">Class selector</td>
+        <td class="tags">.classname { }</td>
+        <td class="description">
+          The class selector selects HTML elements with a specific class
+          attribute. To select elements with a specific class, write a period
+          (.) character, followed by the class name.
+        </td>
+      </tr>
+      <tr>
+        <td class="attributes">Id selector</td>
+        <td class="tags">#id { }</td>
+        <td class="description">
+          To select an element with a specific id, write a hash (#) character,
+          followed by the id of the element.
+        </td>
+      </tr>
+      <tr>
+        <td class="attributes">Group selector</td>
+        <td class="tags">element1, element2, element3{}</td>
+        <td class="description">
+          To group selectors, separate each selector with a comma.
+        </td>
+      </tr>
+      <tr>
+        <td class='attributes'>Universal selector</td>
+        <td class="tags">* { }</td>
+        <td class="description">
+          The universal selector (*) selects all HTML elements on the page.
+        </td>
+      </tr>
+    </table>
+    <footer>
+      Made with ❤️ by Keshia 👩🏽‍💻 in Montreal ©
+    </footer>
+  </body>
+</html>
