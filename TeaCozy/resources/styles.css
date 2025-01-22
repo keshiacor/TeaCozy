@@ -13,7 +13,6 @@ header{
  border-bottom: 1px solid seashell;
  width:100%;
  margin-top:0px;
- 
 }
 
 li {
@@ -34,7 +33,6 @@ li {
 
 .navigation {
 float:right;
-
 }
 
 .section_mission{
@@ -67,7 +65,7 @@ float:right;
     margin: 0 auto;
 }
 
-/** adds spacing between mission background image and the h2 and h4 headers of the tea section **/
+
 .tea_of_month{
   margin:0 auto;
   padding-top:50px;
@@ -75,7 +73,7 @@ float:right;
   width:80%
 }
 
-/** set the width/heigh and display of the images with h4 aligned underneath */
+
 .item img{
     width: 300px;
     height:200px;
@@ -121,7 +119,7 @@ float:right;
    justify-content: space-around;
   
 }
-/* Fix location wrapper that is not responsive correctly */
+
 
 .contact_info{
     height: 200px;
