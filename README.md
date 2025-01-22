@@ -3,6 +3,7 @@
 ## Description
 
 This project aimed to create a fictional tea shop website called Tea Cozy as part of a Codecademy project. The website is static and responsive and demonstrates the use of CSS flexbox.
+Live demo: [Tea Cozy](https://keshiacor.github.io/TeaCozy/)
 
 ## Technologies
 
