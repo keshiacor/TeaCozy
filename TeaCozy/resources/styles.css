@@ -5,12 +5,11 @@ color:seashell;
 background-color: black;
 background-size: cover;
 text-align: center;
-margin:0px; /*this is so that when you scroll, there is no space between header and other elements */
+margin:0px; 
 }
 
 header{
  height: 69px;
- position: fixed;
  border-bottom: 1px solid seashell;
  width:100%;
  margin-top:0px;
